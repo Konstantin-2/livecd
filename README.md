@@ -1,5 +1,5 @@
 # Linux Live CD
-Create custom small Linux live CD. Stripts are to run on Debian.
+Create custom small Linux live CD. Scripts are to run on Debian.
 
 # Usage
 1. Install deb packages: grub-efi-amd64-bin dosfstools mtools isolinux syslinux-common console-setup.
