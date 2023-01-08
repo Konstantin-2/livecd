@@ -9,7 +9,7 @@ ln -s usr/bin initramfs/bin
 # ПРОГРАММЫ
 
 BINS="dash mount umount mkdir find basename modprobe setfont loadkeys"
-BINS="$BINS ls ln rm cat openvt env bash"
+BINS="$BINS ls ln rm cat openvt env bash mount.ntfs mount.ntfs-3g mkfs.ntfs"
 copyso -p $BINS initramfs
 ln -s lib initramfs/lib64
 ln -s x86_64-linux-gnu/ld-linux-x86-64.so.2 initramfs/lib/ld-linux-x86-64.so.2
