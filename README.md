@@ -3,7 +3,7 @@ Create custom small Linux live CD. Scripts are to run on Debian.
 
 # Usage
 1. Install deb packages: grub-efi-amd64-bin dosfstools mtools isolinux syslinux-common console-setup.
-1. Install [copyso](https://github.com/Konstantin-2/copyso) and [copyko](https://github.com/Konstantin-2/copyko)
+1. Install [copyso](https://github.com/Konstantin-2/copyso) and [copyko](https://github.com/Konstantin-2/copyko).
 2. Download these files.
 3. Run *1.mkinitramfs.sh*. *initramfs* directory will be created.
 4. Edit *initramfs* directory as you wish.
@@ -20,4 +20,5 @@ Here /dev/sdz is the flash drive, not a partition like /dev/sdz1.
 
 ## Restore flash drive
 wipefs -a /dev/sdz
+
 mkfs.exfat /dev/sdz
